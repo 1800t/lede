@@ -128,7 +128,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-syncdial=y
           # CONFIG_PACKAGE_luci-app-mwan3=y
           # CONFIG_PACKAGE_luci-app-mwan3helper=y
-          CONFIG_PACKAGE_luci-app-sqm=y
+          # CONFIG_PACKAGE_luci-app-sqm=y
           # CONFIG_PACKAGE_luci-app-qos=y
           CONFIG_PACKAGE_luci-app-flowoffload=n
           CONFIG_PACKAGE_luci-app-vlmcsd=n
@@ -160,7 +160,7 @@ jobs:
           # CONFIG_PACKAGE_vim-fuller=y
           # CONFIG_PACKAGE_wget=y
           # CONFIG_PACKAGE_v2ray=y
-          CONFIG_PACKAGE_v2ray-plugin=y
+          # CONFIG_PACKAGE_v2ray-plugin=y
           # CONFIG_PACKAGE_trojan=y
           CONFIG_PACKAGE_vlmcsd=n
           CONFIG_PACKAGE_wol=n
