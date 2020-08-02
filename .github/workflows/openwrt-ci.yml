@@ -143,7 +143,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=y
-          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
+          # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
           EOF
           # LuCI主题:
           # cat >> .config <<EOF
@@ -161,7 +161,7 @@ jobs:
           # CONFIG_PACKAGE_wget=y
           # CONFIG_PACKAGE_v2ray=y
           # CONFIG_PACKAGE_v2ray-plugin=y
-          CONFIG_PACKAGE_trojan=y
+          # CONFIG_PACKAGE_trojan=y
           CONFIG_PACKAGE_vlmcsd=n
           CONFIG_PACKAGE_wol=n
           EOF
