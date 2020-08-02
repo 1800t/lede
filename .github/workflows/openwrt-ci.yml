@@ -132,6 +132,11 @@ jobs:
           # CONFIG_PACKAGE_luci-app-qos=y
           CONFIG_PACKAGE_luci-app-flowoffload=n
           CONFIG_PACKAGE_luci-app-vlmcsd=n
+          CONFIG_PACKAGE_luci-app-nlbwmon=n
+          CONFIG_PACKAGE_luci-app-unblockmusic=n
+          # CONFIG_PACKAGE_luci-app-wol=n
+          CONFIG_PACKAGE_luci-app-upnp=n
+          CONFIG_PACKAGE_luci-app-accesscontrol=n          
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=y
@@ -154,6 +159,7 @@ jobs:
           # CONFIG_PACKAGE_v2ray=y
           CONFIG_PACKAGE_trojan=y
           CONFIG_PACKAGE_vlmcsd=n
+          CONFIG_PACKAGE_wol=n
           EOF
           # 取消编译VMware镜像以及镜像填充 (不要删除被缩进的注释符号):
           # cat >> .config <<EOF
